@@ -1,0 +1,11 @@
+{
+    "indent_with_tabs": true,
+    "eol": "\n",
+    "end_with_newline": true,
+    "jslint_happy": true,
+    "wrap_attributes": "force",
+    "wrap_attributes_indent_size": 1,
+    "wrap_indent": 4,
+    "wrap_line_length": 600,
+    "brace_style": "collapse"
+}
