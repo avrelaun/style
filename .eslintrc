@@ -5,19 +5,6 @@
         "browser": true,
         "es6": true
     },
-    "globals": {
-        "module": true,
-        "require": true,
-        "define": true
-    },
-    "parserOptions": {
-        "sourceType": "module"
-    },
-    "ecmaFeatures": {
-        "blockBindings": true,
-        "forOf": true,
-        "modules": true
-    },
     "rules": {
 
         // Possible Errors
@@ -32,7 +19,6 @@
         // Best Practices
         "array-callback-return": 2,
         "block-scoped-var": 1,
-        "class-methods-use-this": 2,
         "complexity": [1, 5],
         "consistent-return": 2,
         "curly": 1,
@@ -55,7 +41,6 @@
         "no-magic-numbers": [1, { "ignore": [-1,0,1,2], "ignoreArrayIndexes": true }],
         "no-multi-spaces": 1,
         "no-octal-escape": 2,
-        "no-param-reassign": 1,
         "no-proto": 2,
         "no-return-assign": 1,
         "no-return-await": 2,
@@ -96,7 +81,6 @@
         "computed-property-spacing": [1, "never"],
         "eol-last": [1, "always"],
         "func-call-spacing": [1, "never"],
-        "func-names": [2, "as-needed"],
         "indent": [1, "tab", { "SwitchCase": 1 }],
         "key-spacing": [1, { "beforeColon": false, "afterColon": true }],
         "keyword-spacing": 1,
@@ -128,6 +112,7 @@
         // ECMAScript 6
         "arrow-parens": [1, "always"],
         "arrow-spacing": 1,
+        "generator-star-spacing": [1, { "before": true, "after": false }],
         "no-duplicate-imports": 2,
         "no-var": 2,
         "sort-imports": 1,
